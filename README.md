@@ -9,7 +9,7 @@ python3 check_bcrypt_rounds.py
 sample output
 
 ```
- (main) python_tools/bcrypt_round_check $ python3 check_bcrypt_rounds.py                                                                                    24.9s 
+ (main) python_tools/bcrypt_round_check $ python3 check_bcrypt_rounds.py
 ----------Intel(R) Core(TM) i5-7300U CPU @ 2.60GHz----------
 -trying for bcryptcosts with maxtime: 1.434 seconds to hash-
      hashed 4 rounds in 0.059232473373413086 seconds

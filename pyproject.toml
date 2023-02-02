@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "bcrypt-round-check"
+version = "0.1.0"
+description = "check how many rounds for bcrypt to use"
+authors = ["iameru <post@i3o.eu>"]
+readme = "README.md"
+packages = [{include = "bcrypt_round_check"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+passlib = {extras = ["bcrypt"], version = "^1.7.4"}
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
